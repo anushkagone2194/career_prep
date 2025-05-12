@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.navbar-left {
+    color: rgb(237, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    margin-left: 19px;
+}
+
+.navbar-right {
+    margin-top: 50px;
+    font-size: larger;
+}
+
+/* Updated content style */
+.content {
+    text-align: center;
+    margin-top: 120px; /* moved a little up */
+    font-size: 28px;    /* increased size */
+    color: #000;        /* black text */
+    font-weight: bold;
+}
+
+/* Container style */
+.container {
+    background-color: #333;
+}
+
+/* Infosys box */
+.infosys {
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+/* Infosys image */
+#infoimg {
+    height: 300px;
+    width: 390px;
+    background-size: cover;
+}
+
+/* Footer */
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 27px;
+    margin-top: 50px;
+    color: #faf5f5;
+}
+
+footer .social-links a {
+    color: rgb(245, 239, 239);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    color: #837c7a;
+}
+
+/* Search bar */
+.search-bar {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width: 300px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 8px;
+}
+
+.dropdown {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Company layout */
+.company {
+    margin: 20px;
+    text-align: center;
+}
+
+.company img {
+    width: 250px;       /* Increased size */
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.company a {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.company a:hover {
+    text-decoration: underline;
+}
+
+.company-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

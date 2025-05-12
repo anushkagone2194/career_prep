@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+
+.navbar-left{
+    color: rgb(237, 235, 235);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    margin-left: 19px;
+}
+.navbar-right{
+
+    margin-top: 50px;
+    font-size: larger;
+    
+}
+
+.bar{
+    height: 100px;
+    width:100px;
+}
+
+#inpu{
+
+    position: relative;
+    margin-top: 150px;
+    margin-right:-700px;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+
+.imgg{
+
+ height: 200px;
+ width:300px;
+ position: relative;
+ margin-left: 100px;
+ /* margin-top: 200px; */
+
+
+}
+
+
+#img1{
+
+background-size: cover;
+position: relative;
+margin-top: 30px;
+height: 300px;
+width:500px;
+
+
+}
+
+.but input[type="button"] {
+
+
+    
+    position: relative;
+    margin-top: -150px;
+    margin-left: 750px;
+
+        background-color: red; 
+        color: white;
+        font-size: 20px; 
+        padding: 26px 50px; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .but input[type="button"]:hover {
+        background-color: red;
+    }
+
+
+
+/* .container{
+
+
+    margin-top:300px;
+} */
+
+.container{
+    background-color: #333;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top:250px;
+    color:#faf5f5 ;
+
+}
+
+footer .social-links a {
+    color: rgb(245, 239, 239);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    color: #ff6347; 
+}
+
+
+.top-companies {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+

@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.navbar-left {
+    color: rgb(237, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    margin-left: 19px;
+}
+
+.navbar-right {
+    font-size: larger;
+}
+
+.content {
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.container {
+    background-color: #333;
+}
+
+/* Styles for search dropdown */
+.search-bar {
+    position: absolute;
+    top: 150px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    width: 300px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 8px;
+}
+
+.dropdown {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styles for company sections */
+/* .company-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+/* .company {
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+} */
+
+
+
+/* .companyaccenture {
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 400px;
+    margin-left: 100px;
+} */
+ .companyinfosys {
+    /* background-size: cover; */
+    
+    position: relative;
+    margin-top: 70px;
+    margin-left: -300px;
+}
+#info{
+
+
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.companyaccenture {
+    /* background-size: cover; */
+    
+    position: absolute;
+    margin-top: 70px;
+    margin-right: 1000px;
+}
+#acc{
+
+
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.companymicrosoft {
+    /* background-size: cover; */
+    
+    position: relative;
+    margin-top: 340px;
+    margin-left: -500px;
+}
+#mic{
+
+
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.companycapgemini {
+    /* background-size: cover; */
+    
+    position: relative;
+    margin-top: 340px;
+    margin-left: -800px;
+}
+
+#cap{
+
+
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+/* .companycapgemini {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 700px;
+    margin-left: 100px;
+}
+.companymicrosoft {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 900px;
+    margin-left: 100px;
+}  */
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    /* margin: 0 auto;
+     */
+     margin-top: 500px;
+    padding: 0 27px;
+    color: #faf5f5;
+}
+
+footer .social-links a {
+    color: rgb(245, 239, 239);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    color: #837c7a;
+}

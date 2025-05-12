@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+
+.navbar-left{
+    color: rgb(237, 235, 235);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    margin-left: 19px;
+}
+.navbar-right{
+
+    margin-top: 50px;
+    font-size: larger;
+    
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    margin-right: 690px;
+    margin-top: 20px;
+    font-size: larger;
+    /* text-decoration: underline; */
+}
+
+#welc{
+
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bolder;
+font-size: xx-large;
+
+
+}
+
+
+.abt{
+
+
+    height: 800px;
+    width: 400px;
+    position: relative;
+margin-left: 800px;
+margin-top: -700px;
+
+}
+
+
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 27px;
+    margin-top:450px;
+    color:#fbf8f8 ;
+
+}
+
+footer .social-links a {
+color: rgb(245, 239, 239);
+text-decoration: none;
+margin: 0 10px;
+}
+
+footer .social-links a:hover {
+color: #837c7a; 
+}
+.container{
+    background-color: #333;
+}
